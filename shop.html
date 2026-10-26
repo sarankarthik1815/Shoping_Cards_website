@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cards</title>
+    <link rel="stylesheet" href="shop.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <div class="btn-group" role="group" aria-label="Filter cards">
+        <button class="btn" data-filter="all">All</button>
+        <button class="btn" data-filter="men">Men</button>
+        <button class="btn" data-filter="woman">Woman</button>
+        <button class="btn" data-filter="kids-boy">Boys</button>
+        <button class="btn" data-filter="kids-girl">Girls</button>
+      </div>
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          id="search"
+          aria-label="Search cards"
+          placeholder="Search cards..."
+        />
+        <button type="submit" class="search-submit">Search</button>
+      </form>
+    </div>
+    <div class="container">
+      <div class="box" data-item="men">
+        <img src="men.jpg" alt="Men's card" />
+      </div>
+      <div class="box" data-item="woman">
+        <img src="women.jpg" alt="Woman's card" />
+      </div>
+      <div class="box" data-item="kids-boy">
+        <img src="kid2.avif" alt="Boys' card" />
+      </div>
+      <div class="box" data-item="kids-girl">
+        <img src="kidgirl.jpg" alt="Girls' card" />
+      </div>
+      <div class="box" data-item="men">
+        <img src="men1.jpg" alt="Men's card" />
+      </div>
+      <div class="box" data-item="woman">
+        <img src="women1.jpg" alt="Woman's card" />
+      </div>
+      <div class="box" data-item="kids-boy">
+        <img src="kids1.avif" alt="Boys' card" />
+      </div>
+      <div class="box" data-item="kids-girl">
+        <img src="kidgirl1.jpg" alt="Girls' card" />
+      </div>
+      <div class="box" data-item="men">
+        <img src="men2.jpg" alt="Men's card" />
+      </div>
+      <div class="box" data-item="woman">
+        <img src="women2.jpg" alt="Woman's card" />
+      </div>
+      <div class="box" data-item="kids-boy">
+        <img src="KIDS.avif" alt="Boys' card" />
+      </div>
+      <div class="box" data-item="kids-girl">
+        <img src="kidgirl2.jpg" alt="Girls' card" />
+      </div>
+    </div>
+
+    <script src="shop.js"></script>
+  </body>
+</html>
